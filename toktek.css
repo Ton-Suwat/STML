@@ -1,0 +1,28 @@
+.nav {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f0f0f0;
+    text-align: center;
+    padding: 5px;
+}
+.TNT {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background:antiquewhite;
+    text-align: center;
+    padding: 5px;
+}
+.BOM {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    padding: 5px;
+    background-color: gainsboro;
+}
+.TOM {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: beige;
+    text-align: center;
+    padding: 5px;
+}
