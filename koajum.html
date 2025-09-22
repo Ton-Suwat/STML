@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>koajum</title>
+    <link rel="stylesheet" href="toktek.css">
+</head>
+<body>
+
+    <div class="F1">
+        <h3>ข้อจำกัดของ SMTP</h3>
+        <p>แม้ SMTP จะใช้งานได้ดี แต่ก็มีข้อจำกัดบางประการ เช่น
+            <br>-ไม่รองรับการเข้ารหัสข้อมูลภายในเนื้อหา</br>
+            <br>-ไม่สามารถตรวจสอบความถูกต้องของตัวตนผู้ส่งได้โดยตรง</br>
+            <br>-ไม่มีระบบรับประกันการจัดส่ง (Delivery Guarantee)</br>
+            <br>ปัญหาเหล่านี้สามารถบรรเทาได้ด้วยการใช้งานร่วมกับมาตรฐานเสริม เช่น DKIM, SPF, และ DMARC</br>
+        </p>
+    </div>
+
+    <div class="F2">
+        <h3>ตัวอย่างการทำงานของ SMTP</h3>
+        <p>ลองคิดว่าเราต้องส่งอีเมลจาก alice@example.com ไปหา bob@example2.net
+            <br>1.โปรแกรมของ Alice สร้างคำสั่ง SMTP เช่น HELO, MAIL FROM, RCPT TO, DATA</br>
+            <br>2.เซิร์ฟเวอร์ SMTP ของ example.com รับคำสั่งเหล่านั้น</br>
+            <br>3.เมื่อข้อมูลพร้อม จะส่งต่อไปยัง SMTP ของ example2.net</br>
+            <br>4.Bob เปิดโปรแกรมอ่านอีเมล (ใช้ IMAP หรือ POP3) เพื่อดึงข้อมูลที่ถูกจัดเก็บไว้</br>
+        </p>
+    </div>
+    
+    <div class="F1">
+        <h3>การตั้งค่า SMTP ในโปรแกรมอีเมล</h3>
+        <p>เพื่อให้สามารถส่งอีเมลได้จากโปรแกรมใด ๆ ผู้ใช้ต้องกรอกข้อมูลการตั้งค่า SMTP ซึ่งประกอบด้วย:
+            <br>-ชื่อเซิร์ฟเวอร์ SMTP (เช่น smtp.gmail.com)</br>
+            <br>-พอร์ตที่ใช้</br>
+            <br>-ชื่อผู้ใช้ (Username)</br>
+            <br>-รหัสผ่าน</br>
+            <br>-รูปแบบการเข้ารหัส (SSL, TLS)</br>
+        </p>
+    </div>
+
+    <div class="F2">
+        <h3>ความปลอดภัยในการใช้งาน SMTP</h3>
+        <p>เพื่อให้ SMTP ปลอดภัย ผู้ดูแลระบบมักจะ :
+            <br>-ใช้การเข้ารหัส SSL/TLS</br>
+            <br>-บังคับให้มีการพิสูจน์ตัวตน (SMTP AUTH)</br>
+            <br>-ใช้ SPF, DKIM, DMARC</br>
+            <br>-ตรวจสอบบันทึกการใช้งาน (log) เพื่อหาพฤติกรรมน่าสงสัย</br>
+        </p>
+    </div>
+    
+    <a href="https://aws.amazon.com/th/what-is/smtp/">ที่มา https://aws.amazon.com/th/what-is/smtp/</a>
+</body>
+</html>
