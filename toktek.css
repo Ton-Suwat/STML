@@ -1,28 +1,136 @@
 .nav {
-    margin: 0;
+    margin: 50px;
     font-family: 'Segoe UI', sans-serif;
-    background: #f0f0f0;
+    background: #b38c8c;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
+    border-radius: 25px;
 }
+
+
 .TNT {
-    margin: 0;
+    margin: 50px;
     font-family: 'Segoe UI', sans-serif;
     background:antiquewhite;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
+    border-radius: 25px;
 }
+.CFO {
+    margin: 50px;
+    font-family: 'Segoe UI', sans-serif;
+    background:azure;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+
+
 .BOM {
-    margin: 0;
+    margin: 50px;
     font-family: 'Segoe UI', sans-serif;
     text-align: center;
-    padding: 5px;
-    background-color: gainsboro;
+    padding: 10px;
+    background-color: rgb(194, 173, 173);
+    border-radius: 25px;
 }
 .TOM {
-    margin: 0;
+    margin: 50px;
     font-family: 'Segoe UI', sans-serif;
-    background-color: beige;
+    background-color: rgb(170, 170, 138);
     text-align: center;
-    padding: 5px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+/* div:hover {
+    background-color: white;
+    border-style: solid;
+} */
+
+
+
+.nav1 {
+    margin: 50px;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    padding: 10px;
+    background-color: bisque;
+    border-radius: 50px;
+}
+
+.F1 {
+    margin: 50px;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgb(82, 144, 220);
+}
+.F2 {
+    margin: 50px;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgb(223, 157, 72);
+}
+
+
+.nav:hover {
+    background-color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 50px;
+}
+.TNT:hover {
+    background-color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 50px;
+}
+.CFO:hover {
+    background-color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 50px;
+}
+.BOM:hover {
+    background-color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 50px;
+}
+.TOM:hover {
+    background-color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 50px;
+}
+.F1:hover {
+    background-color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 50px;
+}
+.F2:hover {
+    background-color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 50px;
+}
+
+
+.name {
+    text-align: center;
+    margin: 100px;
 }
