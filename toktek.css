@@ -139,4 +139,6 @@ a {
     text-align: center;
     border-radius: 25px;
     /* background-color: red; */
+    max-width: 100%;
+    height: auto;
 }
