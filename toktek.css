@@ -134,3 +134,9 @@ a {
     text-align: center;
     margin: 100px;
 }
+
+.img {
+    text-align: center;
+    border-radius: 25px;
+    /* background-color: red; */
+}
